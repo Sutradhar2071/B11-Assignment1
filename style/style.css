@@ -82,7 +82,7 @@ button {
 }
 
 .hero-sub-title{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400px;
     color: #0c0b0b;
 }
@@ -112,12 +112,48 @@ button {
 }
 
 .card-title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #0E0E0E;
 }
 
 .card-sub-title{
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(13, 41, 41, 1);
 }
+
+/* section three style */
+
+.hero-3{
+    width: 1280px;
+    height: 1120px;
+    margin: 20px 160px 0px 160px;
+    /* background-color: aqua; */
+    gap: 32px;
+}
+
+.satelite{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 32px;
+}
+
+.satelite-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 12px;
+}
+
+.satelite-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.satelite-sub-title{
+    font-size: 18px;
+    color: #0E0E0E;
+}
+
