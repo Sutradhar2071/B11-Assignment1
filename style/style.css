@@ -127,6 +127,31 @@ button {
     color: rgba(13, 41, 41, 1);
 }
 
+.hero-container-5{
+    width: 1280px;
+    height: 200px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    background-image: url(../assets/quote-bg.png);
+    background-position: 25px 0px;
+    background-repeat: no-repeat;
+    padding: 0px 24px 48px 24px;
+}
+.yunus{
+    font-size: 19px;
+    color: black;
+    padding-top: 25px;
+}
+
+.yunus-hero{
+    font-weight: 500px;
+    font-size: 20px;
+}
+.yunus-hero-2{
+    font-size: 16px;
+    color: black;
+}
 /* section three style */
 
 .hero-3{
@@ -143,7 +168,9 @@ button {
     align-items: center;
     border-radius: 10px;
     gap: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 24px; 
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .satelite-img{
@@ -194,6 +221,7 @@ button {
     font-size: 40px;
     font-weight: bold;
     border-radius: 10px;
+    border: none;
 }
 
 .hero-200{
@@ -202,6 +230,7 @@ button {
     font-size: 45px;
     font-weight: bold;
     border-radius: 10px;
+    border: none;
 }
 
 .input{
@@ -211,6 +240,7 @@ button {
     margin-top: 29px;
     margin-left: 20px;
     color: #FFFFFF;
+    border: none;
 }
 
 /* section 5 style */
@@ -219,7 +249,7 @@ button {
     width: 1280px;
     height: 395px;
     background-color: rgba(198, 228, 214, 1);
-    margin: 0px 160px;
+    margin: 0px 160px 80px 160px;
 }
 
 .end-section{
@@ -250,4 +280,86 @@ button {
     color: #FFFFFF;
     background-color: #006A50;
     border: none;
+}
+/* footer style */
+
+.footer{
+    width: 1600ps;
+    height: 200px;
+}
+
+hr{
+    width: 1000px;
+}
+
+.partho{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.face{
+    text-align: center;
+}
+
+/* button style and hover */
+
+.btn:hover{
+    background-color: yellowgreen;
+}
+
+.btn-ringku{
+    background-color: #006A50;
+    color: #FFFFFF;
+    width: 260px;
+    height: 56px;
+    border-radius: 10px;
+}
+
+.btn-card{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    width: 115px;
+    height: 41px;
+    border-radius: 8px;
+}
+
+.btn-card-1{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    width: 115px;
+    height: 41px;
+    border-radius: 8px;
+}
+
+.btn-card-2{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    width: 115px;
+    height: 41px;
+    border-radius: 8px;
+}
+
+.btn-satelite{
+    background-color: #006A50;
+    color: #FFFFFF;
+    width: 115px;
+    height: 41px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600px
+}
+.btn-partho-2{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.btn-partho{
+    background-color: #006A50;
+    color: #FFFFFF;
+    width: 115px;
+    height: 41px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600px
 }
