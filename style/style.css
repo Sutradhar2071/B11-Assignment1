@@ -5,6 +5,11 @@
     font-style: normal;
   }
 
+  /* body color */
+  .body-color{
+    background-color:#F1F1F3;
+  }
+
   /* header style */
 
   nav{
@@ -82,7 +87,7 @@ button {
 }
 
 .hero-sub-title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400px;
     color: #0c0b0b;
 }
@@ -138,12 +143,15 @@ button {
     align-items: center;
     border-radius: 10px;
     gap: 32px;
+    margin-bottom: 24px;
 }
 
 .satelite-img{
     width: 408px;
     height: 306px;
     border-radius: 12px;
+    /* margin-bottom: 24px; */
+    gap: 24px;
 }
 
 .satelite-title{
@@ -153,7 +161,55 @@ button {
 }
 
 .satelite-sub-title{
-    font-size: 18px;
+    font-size: 18pxpx;
     color: #0E0E0E;
+}
+
+/* section four style */
+
+.hero-4{
+    width: 1280px;
+    height: 464px;
+    /* background-color: red; */
+    margin: 0px 160px;
+    margin-top: 80px;
+}
+
+.hero-4-art{
+    text-align: center;
+}
+
+.hero-4-btn{
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap:24px;
+}
+ 
+.hero-100{
+    background-color: #FFFFFF;
+    padding: 45px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.hero-200{
+    background-color: #C6E4D6;
+    padding: 40px;
+    font-size: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+input{
+    width: 96%;
+    text-align: center;
+    height: 55px;
+    margin-top: 29px;
+    margin-left: 20px;
+    color: #FFFFFF;
 }
 
